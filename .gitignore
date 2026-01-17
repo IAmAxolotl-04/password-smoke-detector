@@ -1,26 +1,97 @@
-﻿# Windows
-Thumbs.db
-Desktop.ini
+﻿# SENSITIVE FILES TO PROTECT
 
-# Node
-node_modules/
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-
-# Project
-dist/
-build/
+# Secrets & Credentials
 .env
 .env.local
-.DS_Store
+.env.*
+*.key
+*.pem
+*.crt
+*.pfx
+secrets.json
+credentials.json
+config.json
+firebase.json
+serviceAccountKey.json
 
-# Logs
-logs/
-*.log
-
-# Editor
+# Local Development
 .vscode/
 .idea/
 *.swp
 *.swo
+*~
+.DS_Store
+Thumbs.db
+
+# Dependencies
+node_modules/
+package-lock.json
+yarn.lock
+
+# Build Outputs
+dist/
+build/
+out/
+*.exe
+*.dll
+
+# Logs
+*.log
+logs/
+npm-debug.log*
+
+# Runtime Data
+*.pid
+*.seed
+
+# Coverage
+coverage/
+.nyc_output/
+
+# Environment
+.env
+.env.test
+
+# IDE
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Temporary
+temp/
+tmp/
+*.tmp
+*.temp
+
+# Backup Files
+*.bak
+*.backup
+*.old
+
+# System Files
+desktop.ini
+
+# CSP Specific
+# Private keys for future SSL/TLS
+private-keys/
+# Local development databases
+local-db/
+# User session data
+sessions/
+# Cache files
+.cache/
+# Test data
+test-data/
+# Development notes
+dev-notes.md
