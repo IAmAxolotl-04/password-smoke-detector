@@ -20,3 +20,4 @@ Create a 'Password Smoke Detector' browser extension that checks password safety
 
 ### Contact
 Starting transparent from Day 1.
+
