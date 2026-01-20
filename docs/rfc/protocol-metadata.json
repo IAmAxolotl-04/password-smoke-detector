@@ -1,0 +1,19 @@
+{
+  "protocolName": "Credential Shield Protocol (CSP)",
+  "version": "csp-1.0-draft",
+  "referenceImplementation": "CSPPrefixHasher",
+  "algorithms": [
+    "sha256",
+    "sha384",
+    "sha512"
+  ],
+  "errorCodes": {
+    "INVALID_ALGORITHM": "CSP_ERR_001",
+    "PREFIX_LENGTH_OUT_OF_BOUNDS": "CSP_ERR_002",
+    "INPUT_VALIDATION_FAILED": "CSP_ERR_003",
+    "PASSWORD_TOO_SHORT_FOR_CHECK": "CSP_ERR_004",
+    "INTERNAL_HASH_FAILURE": "CSP_ERR_005"
+  },
+  "securityNotice": "For breach checking only. NOT for password storage.",
+  "rfcStatus": "DRAFT"
+}
